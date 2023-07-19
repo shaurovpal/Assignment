@@ -210,7 +210,8 @@ header{
 
 /*Features Section*/
 
-.features-section{
+.features-section, 
+.g-section{
     display: flex;
     align-items: center ;
     justify-content: space-between;
@@ -221,7 +222,6 @@ header{
     font-size: 48px;
     font-weight: 700;
     line-height: 60px; 
-    padding: 0 120px;
 }
 
 .features-play{
@@ -238,5 +238,43 @@ header{
     font-weight: 400;
     line-height: 30px; 
 }
+.features-section-img {
+    position: relative;
+    display: inline-block;
+}
+
+.imgae-b{
+    position: absolute;
+    bottom: -100px;
+    left: -150px;
+}
+
+/**/
+
+.g-section-img{
+    position: relative;
+    display: inline-block;
+}
+.g2-img{
+    position: absolute;
+    bottom: -100px;
+    right: -80px;
+}
+.g-section-text{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.g-play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 
