@@ -385,3 +385,14 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/*responsive web*/
+
+@media screen and(max-width:576px) and 
+{
+    header{
+        padding: 10px;
+
+    }
+
+    
+}
