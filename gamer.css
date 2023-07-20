@@ -327,6 +327,12 @@ header{
     flex-wrap: wrap;
     gap: 20px;
     padding: 120px 240px;
+    
+}
+.small-card:hover{
+    background-color: #F948B2;
+    
+
 }
 
 .small-card {
@@ -385,14 +391,4 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-/*responsive web*/
 
-@media screen and(max-width:576px) and 
-{
-    header{
-        padding: 10px;
-
-    }
-
-    
-}
